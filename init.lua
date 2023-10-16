@@ -7,5 +7,5 @@ require("emoore.plugins.nvim-cmp")
 require("emoore.plugins.ts-autotag")
 require("emoore.plugins.autopairs")
 require("emoore.plugins.web-devicons")
-
+require'lspconfig'.pyright.setup{}
 
